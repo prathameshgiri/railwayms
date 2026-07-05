@@ -517,7 +517,7 @@ export default function Landing() {
             initial={{ opacity: 0, x: 60 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="mb-12"
+            className="mb-12 relative w-[100vw] left-1/2 -translate-x-1/2"
           >
             <TrainIllustration />
           </motion.div>
